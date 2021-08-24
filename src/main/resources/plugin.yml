@@ -1,0 +1,7 @@
+name: KotlinBukkitLib
+version: '${version}'
+main: de.felix0351.kotlinbukkitlib.KotlinBukkitLib
+api-version: 1.15
+authors: [ felix0351 ]
+description: KotlinBukkitLib is a Bukkit-Plugin which load the Kotlin libraries for your mod.
+website: https://github.com/felix0351z
