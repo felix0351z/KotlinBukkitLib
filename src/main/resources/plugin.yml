@@ -1,7 +1,13 @@
 name: KotlinBukkitLib
-version: '${version}'
+version: 1.8.20
 main: de.felix0351.kotlinbukkitlib.KotlinBukkitLib
-api-version: 1.15
+load: STARTUP
 authors: [ felix0351 ]
-description: KotlinBukkitLib is a Bukkit-Plugin which load the Kotlin libraries for your mod.
+description: KotlinBukkitLib is a Bukkit-Plugin which loads the standard kotlin libraries for your plugins with ktor, kotlinx.coroutines, kotlinx.serialization as well as the sqlite and the mariadb driver.
 website: https://github.com/felix0351z
+
+
+commands:
+    kotlinbukkitlib:
+      description: Show your love for Kotlin!
+      usage: /kotlinbukkitlib
